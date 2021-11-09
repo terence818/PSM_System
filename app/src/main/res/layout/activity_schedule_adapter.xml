@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginRight="8dp"
+    android:id="@+id/relative"
+    android:tag="cards main container"
+    android:background="@drawable/round_corner"
+    >
+
+
+    <ImageView
+        android:id="@+id/recipes_image"
+        android:layout_width="86dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/schedule" />
+
+
+
+    <TextView
+        android:id="@+id/recipes_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/recipes_image"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="18sp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/recipes_name">
+    </TextView>
+
+    <TextView
+        android:id="@+id/schedule_date"
+        android:textColor="@color/gray_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/recipes_name"
+        app:layout_constraintTop_toBottomOf="@+id/recipes_name"
+        android:text="@string/schedule_date">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/schedule_day"
+        android:textColor="@color/gray_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/schedule_date"
+        app:layout_constraintTop_toBottomOf="@+id/schedule_date"
+        android:text="@string/schedule_day">
+    </TextView>
+
+    <TextView
+        android:id="@+id/serving"
+        android:textColor="@color/gray_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/schedule_day"
+        app:layout_constraintTop_toBottomOf="@+id/schedule_day"
+        android:text="@string/serve">
+    </TextView>
+
+    <TextView
+        android:id="@+id/calories"
+        android:textColor="@color/gray_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/serving"
+        app:layout_constraintTop_toBottomOf="@+id/serving"
+        android:text="@string/calories">
+    </TextView>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:minHeight="0dp"
+        android:text="Delete"
+        android:textColor="@color/red"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/serving"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

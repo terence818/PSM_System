@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.psmsystem">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PSMSystem">
+        <activity android:name=".ui.schedule.ScheduleDetails"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ui.groceries.SummaryGroceriesAdapter" />
+        <activity android:name=".ui.groceries.GroceriesAdapter" />
+        <activity android:name=".Admin_Ingredient_Adapter" />
+        <activity android:name=".Admin_Raw_Adapter" />
+        <activity
+            android:name=".Admin_Ingredient_Add"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin_Ingredients"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin_Raw_Add"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.schedule.ScheduleAdapter" />
+        <activity
+            android:name=".Admin_Procedure_Add"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin_Procedure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.home.AddSchedule"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.home.RecipesDetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.home.HomeAdapter" />
+        <activity
+            android:name=".User_homepage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Admin_Recipes_Adapter" />
+        <activity
+            android:name=".Admin_Recipes_Add"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin_Raw"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin_Recipes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin_homepage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

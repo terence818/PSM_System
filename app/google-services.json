@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1085348667194",
+    "project_id": "psmsystem-a5c15",
+    "storage_bucket": "psmsystem-a5c15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085348667194:android:072fe0f3536a36274a3a03",
+        "android_client_info": {
+          "package_name": "com.example.psmsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085348667194-g7p225lo012d0rfhdne5kq77e0ssbsdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6TxqtdHIdizaraKJb6xGDtIrDZEmwxJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085348667194-g7p225lo012d0rfhdne5kq77e0ssbsdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
